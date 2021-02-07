@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="container my-5 text-muted">
+        <div class="well">
+            <h1>Book Marker</h1>
+        </div>
+    </div>
+         
+    <div class="container my-4 text-center py-4 setclr">
+        <div class="well py-3">
+
+            <h2>Bookmark your favorite sites</h2>
+            
+            <h5>Site Name</h5>
+            <input class="form-control" placeholder="BookMark Name" type="text" id="siteName">
+            
+    
+            <h5>Site URL</h5>
+            <input class="form-control" placeholder="WebSite URL" type="text" id="urlName">
+            
+            <button onclick="addBookMark()" class="btn btn-info mt-4">Submit</button>
+
+        </div>
+    </div>
+    <div id="bookMarkResult" class="container py-4 my-4 setclr shadow">
+        
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
